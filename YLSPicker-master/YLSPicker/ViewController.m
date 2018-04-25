@@ -55,7 +55,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Picker";
-    self.arrayData = @[@"iPhone4",@"iPhone4S",@"iPhone5",@"iPhone5S",@"iPhone5C",@"iPhone6",@"iPhone6Plus",@"iPhone6S",@"iPhone6SPlus"];
+    self.arrayData = @[@"iPhone4",@"iPhone4S",@"iPhone5",@"iPhone5S",@"iPhone5C",@"iPhone6",@"iPhone6Plus",@"iPhone6S",@"iPhone6SPlus",@"iPhone7",@"iPhone7Plus",@"iPhone8",@"iPhone8Plus"];
     
     NSArray *placeholderArr = @[@"Picker OneVlaue",@"Picker TwoVlaue",@"Picker ThreeVlaue",@"test"];
     for (int i = 0; i < 4; i ++)
